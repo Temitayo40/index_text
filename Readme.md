@@ -1,7 +1,7 @@
 # YOUTUBE HOME WEBSITE
 
 This is a webpage project that focuses on developing a Youtube Home page an upcoming.
-<br><br><img src="tube.jpg"><br>
+<br><br><img src="./tube.jpg"><br>
 <br><br>
 
 The aim of this project is to develop the Youtube Home Webpage . The contents are personalized and the design specifications were obtained [here](https://www.odinsproject.com).
