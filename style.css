@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto" sans-serif;
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    
+}
+.material-icons{
+    color: rgb(96,96,96);
+    padding: 0 25px;
+    
+}
+
+.menuBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 17px;
+    background-color: #fff;
+    border-radius: 5px;
+
+
+}
+
+.menuBar .logo {
+    display:flex;
+    align-items: center;
+}
+
+.menuBar .logo img { 
+    width: 100px;
+    margin-left: 15px;
+ 
+}
+.menuBar i {
+padding: 0 7px;
+}
+.menuBar .icon2 {
+   padding: 0 75px;
+    }
+
+.menuBar .search form {
+    border: 1px solid #ddd;
+    height: 25px;
+    margin:0;
+    padding: 0;
+}
+.menuBar .search input {
+    width: 610px;
+    margin:0;
+    padding: 0;
+    border-radius:0;
+    border: none;
+    height: 100%;
+   
+   }
+   .menuBar .search button {
+    height: 100%;
+   padding: 0;
+   margin: 0;
+   border: none;
+   border-radius: 0;
+      
+   }
+
+   .menuBar .icons .icon2 a {
+    background:  blue;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 18px;
+    
+   }
+
+   .part1 {
+       background-color: blue;
+       border-radius: none;
+       height: 90px;
+       width: 100%;
+       margin-top: 10px;
+       padding: 0;
+      
+   }
+   
+  .part1 .step {
+       background-color: #fff;
+       border-radius: none;
+       color: #000;
+       height: 40px;
+       margin: 0px 2px;
+   }
+    .step1 .text1 {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       padding:10px 30px;
+   }
+   .everything {
+       margin: 0 100px;
+     
+   }
+   
+   .video-section {
+       margin-top: 10px;
+   }
+   .video-section .video {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+ 
+   }
+   .video-section .video .side-view {
+       background-color: #fff;
+       height: 1200px;
+       width: 45%;
+   }
+
+   .video-section .video .side-view .cool {
+       display: flex;
+       flex-direction: row;
+       margin: 25px 12px;
+   }
+   .video-section .video .side-view  .cool .flip {
+       display: block;
+       margin-left: 10px;
+       width: 200px;
+   }
+   
+   .video-section .video .side-view  .cool .flip h3 {
+       font-size: 17px;
+   }
+
+   .video-section .video .videos {
+       width: 99%;
+       height: 409px;
+   }
+
+   .step2 {
+    background-color: #fff;
+    border-radius: none;
+    color: #000;
+    height: 130px;
+   margin: 5px 0;
+    width: 739px;
+   }
+   .container {
+       margin-top: -787px;
+   }
+    
+   .step2 .contribution h1 {
+       padding-left: 15px;
+   }
+   .step2 .odin {
+       display: block;
+       margin-left: 15px;
+       margin-top: 5px;
+   }
+
+.step2 .odin input {
+    background-color: red;
+    height: 25px;
+    width: 100px;
+}
+
+.step2 .odin button {
+    height: 25px;
+    padding:
+}
+.step2 .odin span {
+    padding-left:  570px;
+    font-size: 1.5rem;
+   
+}
+.step2 .odin i {
+display: inline;
+padding: 0 15px;
+}
+ .text2 {
+    background-color: #fff;
+    border-radius: none;
+    color: #000;
+    height: 135px;
+    margin: 8px 0;
+    width: 739px;
+    
+   }
+
+.text .publish   {
+    padding-left: 15px;
+    width: 900px;
+   
+   }
+   .text .publish h2 {
+   font-size: 20px;
+   }
+
+   .closing .end {
+    background-color: #fff;
+    border-radius: none;
+    color: #000;
+    height: 150px;
+    margin: 650px 0;
+   }
+
+   .closing .end .publish2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      margin: 0 250px;
+   }
+   .closing .end .publish2 h4 {
+    background: rgb(170, 170, 170);
+    border-radius: 1px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 18px;
+    width: 150px;
+    height: 24px;
+    margin-top: 20px;
+   }
+   .closing .end .publish2 h5 {
+    background: rgb(170, 170, 170);
+    border-radius: 1px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 18px;
+    width: 65px;
+    height: 24px;
+    margin-top: 20px;
+   }
+   .closing .end .icons {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between ;
+       align-items: flex-end;
+       margin: 25px 350px;
+   }
